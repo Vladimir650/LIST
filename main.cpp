@@ -16,7 +16,7 @@ int main (){
     for (auto it = my_list.begin(); it != my_list.end(); ++it) {
         std::cout << *it << " ";
     }
-    std::cout << "\n";
+    std::cout << "\n"; 
 
     my_list.erase_front();
     my_list.erase_back();
